@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Modules | Cludee Gaming</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101014;--panel:#19191f;--text:#f5f5f7;--muted:#b1b1bb;--red:#ed2535}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,Arial,sans-serif}
+    main{width:min(1050px,calc(100% - 40px));margin:70px auto}a{color:inherit}
+    .eyebrow{color:var(--red);font-size:12px;font-weight:800;letter-spacing:.15em}
+    h1{font-size:clamp(2.5rem,7vw,4.5rem);line-height:1;margin:10px 0 30px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    article{padding:22px;background:var(--panel);border:1px solid #ffffff20;border-radius:12px}
+    article p{color:var(--muted)}article a{font-weight:800;text-decoration:none;color:#ff5967}
+    .back{display:inline-block;margin-bottom:30px}
+  </style>
+</head>
+<body><main>
+  <a class="back" href="../index.html">← Main website</a>
+  <p class="eyebrow">CLUDEE GAMING / DEVELOPMENT</p>
+  <h1>Independent modules.</h1>
+  <div class="grid">
+    <article><h2>Advertising</h2><p>Owner-approved advertising placements.</p><a href="advertising/index.html">Open module →</a></article>
+    <article><h2>Tournaments</h2><p>Tournament announcements, schedules and results.</p><a href="tournaments/index.html">Open module →</a></article>
+    <article><h2>News & Updates</h2><p>Approved news and community announcements.</p><a href="news/index.html">Open module →</a></article>
+    <article><h2>Management Dashboard</h2><p>Future private administration interface.</p><a href="dashboard/index.html">Open module →</a></article>
+  </div>
+  <p style="color:#b1b1bb;margin-top:30px">Development scaffolds only. These modules are not linked into the public navigation by default.</p>
+</main></body></html>
